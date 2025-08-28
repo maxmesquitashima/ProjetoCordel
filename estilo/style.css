@@ -25,12 +25,21 @@ header{
     color: white;
     text-align: center;
 }
+
 header >h1{
     font-family: 'Times New Roman';
     font-size: 7vw;
     padding-top: 50px;
     font-variant: small-caps;
 }
+
+    header >h2{
+    font-family: var(--font2);
+    font-size: 4vw;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+}
+
 header >p {
     padding-bottom: 50px;
 }
